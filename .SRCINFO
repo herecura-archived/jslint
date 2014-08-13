@@ -1,6 +1,6 @@
 pkgbase = jslint
 	pkgdesc = The JavaScript Code Quality Tool
-	pkgver = 0.6.1
+	pkgver = 0.6.2
 	pkgrel = 1
 	url = http://jslint.com/
 	arch = any

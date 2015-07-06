@@ -3,10 +3,11 @@
 pkgname=jslint
 _npmname=jslint
 pkgver=0.9.1
-pkgrel=1
+pkgrel=2
 pkgdesc="The JavaScript Code Quality Tool"
 arch=('any')
-depends=('npm')
+makedepends=('npm')
+depends=('nodejs')
 url="http://jslint.com/"
 license=('MIT')
 provides=('nodejs-jslint')

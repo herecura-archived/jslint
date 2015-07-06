@@ -1,11 +1,12 @@
 pkgbase = jslint
 	pkgdesc = The JavaScript Code Quality Tool
 	pkgver = 0.9.1
-	pkgrel = 1
+	pkgrel = 2
 	url = http://jslint.com/
 	arch = any
 	license = MIT
-	depends = npm
+	makedepends = npm
+	depends = nodejs
 	provides = nodejs-jslint
 
 pkgname = jslint
